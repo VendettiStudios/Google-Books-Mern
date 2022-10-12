@@ -1,23 +1,24 @@
 {
-    "homepage":"https://VendettiStudios.github.io/google-books-mern",
-  "name": "googlebooks-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server/server.js",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^5.1.0"
-  },
-  "dependencies": {
-    "apollo-server-express": "^3.10.2"
-  }
+    "homepage": "https://VendettiStudios.github.io/google-books-mern",
+    "name": "googlebooks-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server/server.js",
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+        "install": "cd server && npm i && cd ../client && npm i",
+        "build": "cd client && npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^5.1.0"
+    },
+    "dependencies": {
+        "apollo-server-express": "^3.10.2",
+        "gh-pages": "^4.0.0"
+    }
 }
