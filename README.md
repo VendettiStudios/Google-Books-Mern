@@ -90,6 +90,6 @@ Javascript
 ​
 ## Author
 ​
-[Daniel Holloway](danielholloway.dev)
+[Daniel Holloway](https://danielholloway.dev)
 ​
 
