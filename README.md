@@ -90,6 +90,6 @@ Javascript
 ​
 ## Author
 ​
-- Daniel@VendettiStudios.com
+[Daniel Holloway](danielholloway.dev)
 ​
 
